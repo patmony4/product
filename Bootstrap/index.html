@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <h2 class="text-center display-4 text-primary text-decoration-underline">Product</h2>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary mb-3 float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add Product
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add somthings</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="" class="form-label">ID</label>
+                            <input type="text" name="id" id=""  placeholder="Enter name.." class="form-control mb-3 shadow-none" >
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" name="Name" id="" placeholder="Enter name.." class="form-control mb-3 shadow-none">
+                            <label for="" class="form-label">QTY</label>
+                            <input type="text" name="qty" id="" placeholder="Enter qty." class="form-control mb-3 shadow-none">
+                            <label for="" class="form-label">Price</label>
+                            <input type="text" name="Price" id="" placeholder="Enter Price.." class="form-control mb-3 shadow-none">
+                            <label for="" class="form-label">Total</label>
+                            <input type="text" name="Total" id="" placeholder="Enter total.." class="form-control mb-3 shadow-none">
+                            <label for="" class="form-label">Image</label>
+                            <input type="file" name="Image" id="" class="form-control mb-3 shadow-none">
+                        </form>
+                    </div>
+                    <div class=" modal-footer float-end">
+                        <button type="button" class="btn btn-danger">Cancel</button>
+                        <button type="button" class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table class="table align-middle table-dark table-hover text-center mt-5 ">
+            <thead class="text-center ">
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>QTY</th>
+                    <th>Price</th>
+                    <th>Payment</th>
+                    <th>image</th>
+                    <th>action</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="table-active">
+                    <th>1001</th>
+                    <th>Sting</th>
+                    <th>25</th>
+                    <th>2000</th>
+                    <th>50000</th>
+                    <th>
+                        <img src="../image/Sting Energy Can PNG Images (Transparent HD Photo Clipart).jpg" alt=""
+                            width="100px" height="100px" class="rounded">
+                    </th>
+                    <th>
+                        <button type="button" class="btn btn-warning">Update</button>
+                        <button type="button" class="btn-danger btn">Delete</button>
+                    </th>
+                </tr>
+            </tbody>
+            <tbody class="text-center">
+                <tr>
+                    <th>1001</th>
+                    <th>Sting</th>
+                    <th>25</th>
+                    <th>2000</th>
+                    <th>50000</th>
+                    <th>
+                        <img src="../image/OIP.jpg" alt="" width="100px" height="100px" class="rounded">
+                    </th>
+                    <th>
+                        <button type="button" class="btn btn-warning">Update</button>
+                        <button type="button" class="btn-danger btn">Delete</button>
+                    </th>
+                </tr>
+            </tbody>
+            <tbody class="text-center">
+                <tr>
+                    <th>1001</th>
+                    <th>Sting</th>
+                    <th>25</th>
+                    <th>2000</th>
+                    <th>50000</th>
+                    <th>
+                        <img src="../image/Sting Energy Can PNG Images (Transparent HD Photo Clipart).jpg" alt=""
+                            width="100px" height="100px" class="rounded">
+                    </th>
+                    <th>
+                        <button type="button" class="btn btn-warning">Update</button>
+                        <button type="button" class="btn-danger btn">Delete</button>
+                    </th>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+<script src="./bootstrap-5.0.2-dist/js/bootstrap.js "></script>
+</html>
